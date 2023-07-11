@@ -1,0 +1,33 @@
+// 波形选择
+module sel_wave(
+	input clk，
+	input rst_n,
+	input [1:0] sel,
+	input [11:0] da_ina,
+	input [11:0] da_inb,
+	input [11:0] da_inc,
+	output [11:0] da_out
+);
+
+reg [11:0] da_out_reg;
+assign da_out = da_out_reg;
+
+always @(posedge clk or negedge rst_n)
+begin
+	if(!rst_n)
+	begin
+		da_out_reg <= 12'd0;
+	end
+	else
+	begin
+		case(sel)
+		begin
+			2'b01 : da_out_reg <= da_ina;
+			2'b10 : da_out_reg <= da_inb;
+			2'b11 : da_out_reg <= da_inc;
+			default: da_out_reg <= da_ina;
+		endcase
+	end
+end
+
+endmodule 

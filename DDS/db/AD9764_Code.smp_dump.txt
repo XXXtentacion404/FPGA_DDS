@@ -1,0 +1,7 @@
+
+State Machine - |AD9764_Code|time_cs:time_cs_u1|state
+Name state.STATE_STOP state.STATE_WAIT state.STATE_START state.STATE_IDLE 
+state.STATE_IDLE 0 0 0 0 
+state.STATE_START 0 0 1 1 
+state.STATE_WAIT 0 1 0 1 
+state.STATE_STOP 1 0 0 1 

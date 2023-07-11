@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="AD9764_Code">
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|cnt_module:cnt_module_u1|cntt:cntt_u4|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_6ui.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|lpm_counter:read_pointer_counter" CBX_FILE_NAME="cntr_m9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|PLL:U_PLL|altpll:altpll_component" CBX_FILE_NAME="PLL_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|ROM_Sin:u_ROM_Sin|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ln91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|cnt_module:cnt_module_u1|cntt:cntt_u1|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_6ui.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|cnt_module:cnt_module_u1|cntt:cntt_u5|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_6ui.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram" CBX_FILE_NAME="altsyncram_st14.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|lpm_counter:status_advance_pointer_counter" CBX_FILE_NAME="cntr_hgi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|cnt_module:cnt_module_u1|cntt:cntt_u2|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_6ui.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_mux:mux" CBX_FILE_NAME="mux_tsc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|time_cs:time_cs_u1|counter_32bit:trick_count|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_0ij.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|cnt_module:cnt_module_u1|cntt:cntt_u3|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_6ui.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|pllm:pll_u1|altpll:altpll_component" CBX_FILE_NAME="pllm_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder" CBX_FILE_NAME="decode_dvf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|lpm_counter:status_read_pointer_counter" CBX_FILE_NAME="cntr_23j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|AD9764_Code|time_cs:time_cs_u1|counter_32bit:time_out_count|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_0ij.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,13 @@
+module AD9764_Code(
+	input clk,
+	input Fre_Key,
+	output dac_clk,
+	output [13:0] dac_data
+);
+
+PLL U_PLL(
+	.inclk0(clk),
+	.c0(dac_clk),
+	.c1(clk_125m)
+);
+
