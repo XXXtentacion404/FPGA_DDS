@@ -26,15 +26,15 @@
 // 宏定义
 //-----------------------------------------------------------------
 //#define SPI_FPGA_MISO 		HAL_GPIO_ReadPin(GPIOE,GPIO_PIN_2)
-#define SPI_FPGA_MISO 		HAL_GPIO_ReadPin(GPIOE,GPIO_PIN_6)
-#define SPI_FPGA_SCL_Set 	HAL_GPIO_WritePin(GPIOE,GPIO_PIN_4,GPIO_PIN_SET) 
-#define SPI_FPGA_SCL_Clr	HAL_GPIO_WritePin(GPIOE,GPIO_PIN_4,GPIO_PIN_RESET)
-#define CS_CMD_Set 				HAL_GPIO_WritePin(GPIOE,GPIO_PIN_2,GPIO_PIN_SET) 
-#define CS_CMD_Clr 				HAL_GPIO_WritePin(GPIOE,GPIO_PIN_2,GPIO_PIN_RESET)
-#define CS_DATA_Set 			HAL_GPIO_WritePin(GPIOE,GPIO_PIN_3,GPIO_PIN_SET) 
-#define CS_DATA_Clr 			HAL_GPIO_WritePin(GPIOE,GPIO_PIN_3,GPIO_PIN_RESET)
-#define SPI_FPGA_MOSI_Set	HAL_GPIO_WritePin(GPIOE,GPIO_PIN_5,GPIO_PIN_SET) 
-#define SPI_FPGA_MOSI_Clr	HAL_GPIO_WritePin(GPIOE,GPIO_PIN_5,GPIO_PIN_RESET)
+#define SPI_FPGA_MISO 		PBin(5);
+#define SPI_FPGA_SCL_Set 	HAL_GPIO_WritePin(GPIOB,GPIO_PIN_7,GPIO_PIN_SET)
+#define SPI_FPGA_SCL_Clr	HAL_GPIO_WritePin(GPIOB,GPIO_PIN_7,GPIO_PIN_RESET)
+#define CS_CMD_Set 				HAL_GPIO_WritePin(GPIOB,GPIO_PIN_8,GPIO_PIN_SET)
+#define CS_CMD_Clr 				HAL_GPIO_WritePin(GPIOB,GPIO_PIN_8,GPIO_PIN_RESET)
+#define CS_DATA_Set 			HAL_GPIO_WritePin(GPIOB,GPIO_PIN_9,GPIO_PIN_SET)
+#define CS_DATA_Clr 			HAL_GPIO_WritePin(GPIOB,GPIO_PIN_9,GPIO_PIN_RESET)
+#define SPI_FPGA_MOSI_Set	HAL_GPIO_WritePin(GPIOB,GPIO_PIN_6,GPIO_PIN_SET)
+#define SPI_FPGA_MOSI_Clr	HAL_GPIO_WritePin(GPIOB,GPIO_PIN_6,GPIO_PIN_RESET)
 
 #define	DATA_WIDTH 32	 // 定义发送数据的宽度---注意:如果要更改数据位宽,对应的发送和接收数据程序也要更改
 #define	CMD_WIDTH  8   // 地址位宽度

@@ -103,8 +103,8 @@ void PHA_TEST (void)
 	u32 ADV_CNT;						// 超前周期计数值
 	u32 LAG_CNT;						// 滞后周期计数值
 	unsigned char display_buf[16];		// 显示缓存
-	float FREQUENCY;									// 频率值
-	float DUTY_RATIO; 								// 相位差值
+	uint32_t FREQUENCY;									// 频率值
+	uint32_t DUTY_RATIO; 								// 相位差值
 	
 	// 变量初始化
 	PHA_CNT = 0;
@@ -131,7 +131,7 @@ void PHA_TEST (void)
 //	DUTY_RATIO = PHA_CNT * 360.00 / FRE_CNT;
 	FREQUENCY  = (CYC_CNT * 300000000.00 / 1.0000182) / FRE_CNT;
 	DUTY_RATIO = PHA_CNT * 360.00 / FRE_CNT;
-	
+		printf("%d\n",DUTY_RATIO);
 	
 	// 超前滞后判读
 	if (ADV_CNT <= LAG_CNT)						// 滞后
@@ -145,8 +145,9 @@ void PHA_TEST (void)
 //	printf("zhouqijishu:%10d\r\n",CYC_CNT);						// 测量周期个数计数值
 //	printf("chaoqianjishu:%10d\r\n",ADV_CNT);	      	// 超前周期计数值
 //	printf("zhihoujishu:%10d\r\n",LAG_CNT);	    			// 滞后周期计数值
-	printf("pinglvjishu  :%10.3fHZ\r\n",FREQUENCY);			// 频率值
-	printf("xiangweicha:	%10.3f\r\n",DUTY_RATIO);			// 相位差值
+//	printf("pinglvjishu  :%10.3fHZ\r\n",FREQUENCY);			// 频率值
+//	printf("xiangweicha:	%10.3f\r\n",DUTY_RATIO);			// 相位差值
+
 	
 }
 

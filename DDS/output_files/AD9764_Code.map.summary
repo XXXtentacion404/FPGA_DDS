@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Tue Jul 11 12:00:22 2023
+Analysis & Synthesis Status : Successful - Sat Jul 15 11:07:12 2023
 Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Full Version
 Revision Name : AD9764_Code
 Top-level Entity Name : AD9764_Code
 Family : Cyclone IV E
-Total logic elements : 2,049
-    Total combinational functions : 1,277
-    Dedicated logic registers : 1,591
-Total registers : 1591
+Total logic elements : 2,138
+    Total combinational functions : 1,526
+    Dedicated logic registers : 1,561
+Total registers : 1561
 Total pins : 41
 Total virtual pins : 0
 Total memory bits : 65,536

@@ -36,24 +36,24 @@
 //-----------------------------------------------------------------
 void SPI_Communication_Init(void)
 {
-	GPIO_InitTypeDef GPIO_Initure;
-  __HAL_RCC_GPIOE_CLK_ENABLE();           					// 开启GPIOE	时钟
-	
-	GPIO_Initure.Pin=GPIO_PIN_3 | GPIO_PIN_4 | GPIO_PIN_5 | GPIO_PIN_2;	// PE3 4 5 2
-  GPIO_Initure.Mode=GPIO_MODE_OUTPUT_PP;  					// 推挽输出
-	GPIO_Initure.Pull=GPIO_PULLUP;          					// 上拉
-  GPIO_Initure.Speed=GPIO_SPEED_FREQ_VERY_HIGH;     // 高速
-  HAL_GPIO_Init(GPIOE,&GPIO_Initure);
-	
-	GPIO_Initure.Pin=GPIO_PIN_6;											// PE6
-  GPIO_Initure.Mode=GPIO_MODE_INPUT;  							// 推挽输出
-  GPIO_Initure.Speed=GPIO_SPEED_FREQ_VERY_HIGH;     // 高速
-  HAL_GPIO_Init(GPIOE,&GPIO_Initure);
+    GPIO_InitTypeDef GPIO_Initure;
+    __HAL_RCC_GPIOB_CLK_ENABLE();           					// 开启GPIOB时钟
 
-	SPI_FPGA_MOSI_Set;	
-	SPI_FPGA_SCL_Set;
-	CS_CMD_Set;
-	CS_DATA_Set;
+    GPIO_Initure.Pin=GPIO_PIN_8 | GPIO_PIN_6 | GPIO_PIN_9 | GPIO_PIN_7;	// PE3 4 5 6
+    GPIO_Initure.Mode=GPIO_MODE_OUTPUT_PP;  					// 推挽输出
+    GPIO_Initure.Pull=GPIO_PULLUP;          					// 上拉
+    GPIO_Initure.Speed=GPIO_SPEED_FREQ_VERY_HIGH;     // 高速
+    HAL_GPIO_Init(GPIOB,&GPIO_Initure);
+
+    GPIO_Initure.Pin=GPIO_PIN_5;											// PE2
+    GPIO_Initure.Mode=GPIO_MODE_INPUT;  							// 推挽输出
+    GPIO_Initure.Speed=GPIO_SPEED_FREQ_VERY_HIGH;     // 高速
+    HAL_GPIO_Init(GPIOB,&GPIO_Initure);
+
+    SPI_FPGA_MOSI_Set;
+    SPI_FPGA_SCL_Set;
+    CS_CMD_Set;
+    CS_DATA_Set;
 }
 
 //-----------------------------------------------------------------

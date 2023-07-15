@@ -1,5 +1,5 @@
 EDA Netlist Writer report for AD9764_Code
-Tue Jul 11 12:00:38 2023
+Sat Jul 15 11:07:28 2023
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue Jul 11 12:00:38 2023 ;
+; EDA Netlist Writer Status ; Successful - Sat Jul 15 11:07:28 2023 ;
 ; Revision Name             ; AD9764_Code                           ;
 ; Top-level Entity Name     ; AD9764_Code                           ;
 ; Family                    ; Cyclone IV E                          ;
@@ -66,20 +66,20 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+--------------------+
 
 
-+--------------------------------------------------------------------------+
-; Simulation Generated Files                                               ;
-+--------------------------------------------------------------------------+
-; Generated Files                                                          ;
-+--------------------------------------------------------------------------+
-; D:/29036/DA/DDS/simulation/modelsim/AD9764_Code_8_1200mv_85c_slow.vo     ;
-; D:/29036/DA/DDS/simulation/modelsim/AD9764_Code_8_1200mv_0c_slow.vo      ;
-; D:/29036/DA/DDS/simulation/modelsim/AD9764_Code_min_1200mv_0c_fast.vo    ;
-; D:/29036/DA/DDS/simulation/modelsim/AD9764_Code.vo                       ;
-; D:/29036/DA/DDS/simulation/modelsim/AD9764_Code_8_1200mv_85c_v_slow.sdo  ;
-; D:/29036/DA/DDS/simulation/modelsim/AD9764_Code_8_1200mv_0c_v_slow.sdo   ;
-; D:/29036/DA/DDS/simulation/modelsim/AD9764_Code_min_1200mv_0c_v_fast.sdo ;
-; D:/29036/DA/DDS/simulation/modelsim/AD9764_Code_v.sdo                    ;
-+--------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                        ;
++---------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                   ;
++---------------------------------------------------------------------------------------------------+
+; D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/AD9764_Code_8_1200mv_85c_slow.vo     ;
+; D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/AD9764_Code_8_1200mv_0c_slow.vo      ;
+; D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/AD9764_Code_min_1200mv_0c_fast.vo    ;
+; D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/AD9764_Code.vo                       ;
+; D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/AD9764_Code_8_1200mv_85c_v_slow.sdo  ;
+; D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/AD9764_Code_8_1200mv_0c_v_slow.sdo   ;
+; D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/AD9764_Code_min_1200mv_0c_v_fast.sdo ;
+; D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/AD9764_Code_v.sdo                    ;
++---------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -88,19 +88,19 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Full Version
-    Info: Processing started: Tue Jul 11 12:00:36 2023
+    Info: Processing started: Sat Jul 15 11:07:26 2023
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off AD9764_Code -c AD9764_Code
-Info (204019): Generated file AD9764_Code_8_1200mv_85c_slow.vo in folder "D:/29036/DA/DDS/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file AD9764_Code_8_1200mv_0c_slow.vo in folder "D:/29036/DA/DDS/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file AD9764_Code_min_1200mv_0c_fast.vo in folder "D:/29036/DA/DDS/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file AD9764_Code.vo in folder "D:/29036/DA/DDS/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file AD9764_Code_8_1200mv_85c_v_slow.sdo in folder "D:/29036/DA/DDS/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file AD9764_Code_8_1200mv_0c_v_slow.sdo in folder "D:/29036/DA/DDS/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file AD9764_Code_min_1200mv_0c_v_fast.sdo in folder "D:/29036/DA/DDS/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file AD9764_Code_v.sdo in folder "D:/29036/DA/DDS/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file AD9764_Code_8_1200mv_85c_slow.vo in folder "D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file AD9764_Code_8_1200mv_0c_slow.vo in folder "D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file AD9764_Code_min_1200mv_0c_fast.vo in folder "D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file AD9764_Code.vo in folder "D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file AD9764_Code_8_1200mv_85c_v_slow.sdo in folder "D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file AD9764_Code_8_1200mv_0c_v_slow.sdo in folder "D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file AD9764_Code_min_1200mv_0c_v_fast.sdo in folder "D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file AD9764_Code_v.sdo in folder "D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4555 megabytes
-    Info: Processing ended: Tue Jul 11 12:00:38 2023
+    Info: Peak virtual memory: 4551 megabytes
+    Info: Processing ended: Sat Jul 15 11:07:28 2023
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

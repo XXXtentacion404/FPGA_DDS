@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE10) Path("D:/29036/DA/_2_AD9764_D_FPGA_Code_20210724/output_files/") File("SAOPING.jic") MfrSpec(OpMask(1) SEC_Device(EPCS4) Child_OpMask(1 1));
+		Device PartName(EP4CE10E22) Path("D:/29036/DA/DDS_xianwgei_pinglv_7_11/DDS/output_files/") File("AD9764_Code.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

@@ -1,0 +1,9 @@
+PIN 71	spi_cs_cmd		PE2
+PIN_69	spi_cs_data		PE3
+PIN 67	spi_scl		   	PE4
+PIN 65	spi_sdi			PE5 
+PIN 60	spi_sdo			PE6					
+FPGA	SPI			STM32		
+记得共地！！！
+		
+		

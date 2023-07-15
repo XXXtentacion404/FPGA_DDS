@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/29036/DA/DDS_xianwgei_pinglv_7_11/STM32_DDS_Clion_714/Core/Startup/startup_stm32f407zgtx.s
+
